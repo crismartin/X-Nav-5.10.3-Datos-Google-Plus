@@ -43,7 +43,7 @@
       function makeApiCall() {
         gapi.client.load('plus', 'v1', function() {
           var request = gapi.client.plus.people.get({
-            'userId': ''
+            'userId': '+GregorioRobles'
             // For instance: 
             // 'userId': '+GregorioRobles'
           });
